@@ -1,7 +1,7 @@
-# `runbooks/` — عملیات
+# `runbooks/` — operations
 
-معادل `~/dev/DevOps`. یک سرویس = یک پوشه یا یک فایل `سرویس-کار.md`.
+Same path as `~/dev/DevOps`. One service = one directory or one `service-task.md`.
 
-الان: `graylog-confluence-docs/`، `jitsi/`، `workstation/`، به‌علاوه فایل‌های تک‌سرویس در ریشه.
+Currently: `graylog-confluence-docs/`, `jitsi/`, `workstation/`, plus single-service files at this root.
 
-اینجا «چطور روی سیستم واقعی انجامش بده» است. آموزش مفهومی → `../knowledge/topics/`. ارائه → `../knowledge/talks/`. بستهٔ فایل سرور → `../deploy/`.
+This is "how to do it on a real system". Concepts → `../knowledge/topics/`. Talks → `../knowledge/talks/`. Server file bundles → `../deploy/`.
