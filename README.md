@@ -1,26 +1,26 @@
-> این ریپو **فقط** نقشهٔ پوشه‌بندی `~/dev` است (فایل‌های `README.md` ساختار). سورس، بکاپ، و راز اینجا نیستند.
+> This repository contains **only** `README.md` layout maps for `~/dev`. No source, backups, or secrets.
 
 # `~/dev`
 
-فضای کار نرم‌افزار. هر چیز در یکی از چهار ریشه است؛ مسیرهای قدیمی با symlink حفظ شده‌اند.
+Software workspace. Everything belongs in one of four roots. Legacy paths are kept as symlinks.
 
-| مسیر | نقش | چه چیزی اینجا می‌آید |
+| Path | Role | What belongs here |
 | --- | --- | --- |
-| `personal/` | ریپوهای فعال خودت (`mamahoos`) | پروژهٔ در حال کار، با `.git` |
-| `work/` | کار شرکت | عمداً جدا از personal |
-| `vendor/` | clone دیگران | upstream ≠ mamahoos |
-| `studio/` | غیرریپو: آرشیو + میزکار | دانش، عملیات، بکاپ، کد مرده |
+| `personal/` | Active repos you own (`mamahoos`) | Work in progress, with `.git` |
+| `work/` | Employer work | Kept separate from personal |
+| `vendor/` | Other people's clones | upstream ≠ mamahoos |
+| `studio/` | Non-repo: archive + desk | Knowledge, ops, backups, dead code |
 
-جزئیات studio: [`studio/README.md`](studio/README.md)
+Studio details: [`studio/README.md`](studio/README.md)
 
-## سازگاری مسیر (دست نزن)
+## Path compatibility (do not remove)
 
-این سه نام در ریشهٔ `~/dev` باید بمانند:
+These names must remain at the root of `~/dev`:
 
-| symlink | هدف |
+| symlink | Target |
 | --- | --- |
 | `archive` | `studio/archive` |
 | `configs` | `studio/desk/config` |
 | `DevOps` | `studio/desk/runbooks` |
 
-داخل archive: `docker-images` → `artifacts/container-images/docker-images`
+Inside archive: `docker-images` → `artifacts/container-images/docker-images`
