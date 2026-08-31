@@ -1,38 +1,38 @@
-# `studio/` — غیرریپو
+# `studio/` — non-repo workspace
 
-دو شاخه، دو عمر متفاوت:
+Two trees, two lifetimes:
 
 ```
 studio/
-  archive/     منجمد: پروژهٔ مرده + بسته/دامپ
-  desk/        زنده: دانش + عملیات روزانه
+  archive/     frozen: dead projects + dumps
+  desk/        live: knowledge + day-to-day ops
 ```
 
-ریپوی فعال اینجا نیست → `~/dev/personal` یا `~/dev/work`.
+Active git repos do not live here → `~/dev/personal` or `~/dev/work`.
 
-## کجا بگذارم؟
+## Where does this file go?
 
 ```
-فایل جدید
-  ├─ هنوز نمی‌دانی؟                    → desk/inbox/
-  ├─ راز / کلید / recovery / SSH       → desk/config/   (هرگز git)
-  ├─ «چطور deploy/عیب‌یابی کنم؟»        → desk/runbooks/
-  ├─ compose / env / بستهٔ سرور        → desk/deploy/<سرویس>/
-  ├─ حادثه با زمان و اقدام             → desk/incidents/
-  ├─ قالب تکرارشونده (seed, compose)   → desk/templates/
-  ├─ یادداشت خام برای چسباندن به LLM   → desk/llm/
-  ├─ تصویر/اسکرین                    → desk/media/
-  ├─ یادگیری / PDF / مرجع کوتاه        → desk/knowledge/
-  ├─ کد/پروژهٔ مرده                    → archive/projects/<نام>/
-  └─ zip، دامپ DB، docker save، خروجی  → archive/artifacts/…
+new file
+  ├─ unknown yet?                         → desk/inbox/
+  ├─ secret / key / recovery / SSH        → desk/config/   (never git)
+  ├─ "how do I deploy / debug this?"      → desk/runbooks/
+  ├─ compose / env / server bundle        → desk/deploy/<service>/
+  ├─ incident with time and actions       → desk/incidents/
+  ├─ reusable skeleton (seed, compose)    → desk/templates/
+  ├─ raw paste for an LLM                 → desk/llm/
+  ├─ screenshot / image                   → desk/media/
+  ├─ learning / PDF / short reference     → desk/knowledge/
+  ├─ dead project / old source tree       → archive/projects/<name>/
+  └─ zip, DB dump, docker save, export    → archive/artifacts/…
 ```
 
-## قانون نام‌گذاری
+## Naming
 
-- kebab-case، بدون فاصله در نام پوشه
-- دامپ تاریخ‌دار: `YYYY-MM-DD-موضوع`
-- یک README فقط برای ساختار؛ محتوای پروژه را اینجا توضیح نده
+- kebab-case; no spaces in directory names
+- dated dumps: `YYYY-MM-DD-topic`
+- README files describe layout only, not project internals
 
-## symlinkهای `~/dev`
+## `~/dev` symlinks
 
-`archive` → اینجا؛ `configs` → `desk/config`؛ `DevOps` → `desk/runbooks`.
+`archive` → here; `configs` → `desk/config`; `DevOps` → `desk/runbooks`.
