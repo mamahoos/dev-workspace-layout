@@ -1,3 +1,3 @@
 # `references/`
 
-مرجع کوتاه: بوکمارک، چک‌لیست، مقایسه. فایل با نام واضح.
+Short references: bookmarks, checklists, comparisons. Use an obvious filename.
