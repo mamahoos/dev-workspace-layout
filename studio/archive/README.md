@@ -1,23 +1,23 @@
-# `archive/` — منجمد
+# `archive/` — frozen
 
-ریشه باید خلوت بماند. فقط دو درخت + یک symlink سازگاری:
+Keep the root empty. Two trees plus one compatibility symlink:
 
 ```
 archive/
-  projects/     درخت سورس/پروژهٔ قدیمی (دست‌نخورده بماند مگر بدانی)
-  artifacts/    بسته، دامپ، خروجی ابزار، اسکریپت پراکنده
+  projects/     old source / project trees (do not reshuffle internals)
+  artifacts/    packs, dumps, tool exports, stray scripts
   docker-images → artifacts/container-images/docker-images
 ```
 
-کد داخل `projects/programing` را جابه‌جا نکن؛ نام تاریخی `programing` عمداً مانده.
+Do not rearrange files inside `projects/programing`. The historical spelling `programing` stays.
 
-پروژهٔ جدیدِ مرده: `projects/<kebab-name>/`  
-بستهٔ همان پروژه: `artifacts/archives/projects/` یا اگر مال یک پوشه است `_artifacts/` داخل همان پروژه (پایین).
+New dead project: `projects/<kebab-name>/`  
+Packaged snapshot of the same project: `artifacts/archives/projects/`, or `_artifacts/` inside that project (below).
 
-## الگوی `_artifacts` داخل یک پروژه
+## `_artifacts` inside a project
 
 ```
-projects/<نام>/
+projects/<name>/
   _artifacts/
     archives/
     databases/
@@ -25,4 +25,4 @@ projects/<نام>/
     images/
 ```
 
-فقط zip/tar/دامپ/docker-save. venv و سورس را منتقل نکن.
+Only zip/tar/dumps/`docker save`. Do not move venv or source here.
