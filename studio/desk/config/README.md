@@ -1,13 +1,13 @@
-# `config/` — حساس
+# `config/` — sensitive
 
-معادل `~/dev/configs`. **هرگز در git عمومی یا ریپوی layout نیاید.**
+Same path as `~/dev/configs`. **Never commit this tree** (not even to the layout repo as file contents).
 
-| مسیر | محتوی |
+| Path | Contents |
 | --- | --- |
-| `amard/` | محیط آمار |
-| `dadeh-negar/` | محیط داده‌نگار |
-| `personal/` | کلید/حساب شخصی (مثلاً Arvan) |
-| `recovery/` | recovery code سرویس‌ها |
-| `ssh-keys.txt` | یادداشت کلیدها |
+| `amard/` | Amard environment |
+| `dadeh-negar/` | Dadeh-Negar environment |
+| `personal/` | personal keys/accounts (e.g. Arvan) |
+| `recovery/` | service recovery codes |
+| `ssh-keys.txt` | key notes |
 
-فایل محیطی: یک موضوع در یک فایل، نام محیط روی پوشه نه روی پسوند.
+One topic per file. Put the environment name on the directory, not on the extension.
