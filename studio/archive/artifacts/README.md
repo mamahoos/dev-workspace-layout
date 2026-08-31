@@ -1,15 +1,15 @@
-# `artifacts/` — غیرسورس
+# `artifacts/` — non-source
 
-| پوشه | محتوی |
+| Directory | Contents |
 | --- | --- |
-| `archives/projects/` | zip/tar اسنپ‌شات پروژه |
-| `archives/platforms/` | بکاپ سنگین سرویس (سرور، coolify، …) |
-| `archives/generic/` | tar/zip بدون برچسب پروژه |
-| `exports/` | خروجی اپ؛ کنار zip یک `unpacked/` |
-| `container-images/docker-images/` | `docker save` |
-| `databases/` | `.sql` / `.db` تک‌فایل (نه `.db` داخل ریپو) |
-| `documents/` | سند تک‌فایل که پروژه نیست |
-| `scripts/` | sh/py پراکنده |
-| `config-snippets/` | قطعه کانفیگ؛ `vpn/` حساس است |
+| `archives/projects/` | zip/tar project snapshots |
+| `archives/platforms/` | heavy service/server backups |
+| `archives/generic/` | unlabeled tar/zip |
+| `exports/` | app exports; keep zip next to `unpacked/` |
+| `container-images/docker-images/` | `docker save` output |
+| `databases/` | standalone `.sql` / `.db` (not `.db` inside a repo) |
+| `documents/` | one-off documents that are not a project |
+| `scripts/` | stray sh/py |
+| `config-snippets/` | config fragments; `vpn/` is sensitive |
 
-مسیر سازگاری: `archive/docker-images` → `container-images/docker-images`.
+Compatibility path: `archive/docker-images` → `container-images/docker-images`.
