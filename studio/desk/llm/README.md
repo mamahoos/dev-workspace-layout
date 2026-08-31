@@ -1,5 +1,5 @@
 # `llm/`
 
-قطعهٔ خام برای چسباندن به مدل: لاگ، خلاصهٔ وضعیت، پرامپت آماده.
+Raw pieces to paste into a model: logs, status dumps, ready prompts.
 
-مستند ساخت‌یافته → `../runbooks/`. تصویر → `../media/`.
+Structured docs → `../runbooks/`. Images → `../media/`.
