@@ -1,3 +1,3 @@
 # `documents/`
 
-PDF و متن بلند. اگر موضوع مشخص شد، به `../topics/<موضوع>/` منتقل کن.
+Long PDFs and text. Once the topic is clear, move the file to `../topics/<topic>/`.
