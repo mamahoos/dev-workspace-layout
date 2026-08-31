@@ -1,3 +1,3 @@
 # `topics/`
 
-یک موضوع = یک پوشه kebab-case. چند فرمت از یک مطلب (md/html/pdf) کنار هم در همان پوشه بمانند.
+One topic = one kebab-case directory. Keep multiple formats of the same material (md/html/pdf) in that directory.
