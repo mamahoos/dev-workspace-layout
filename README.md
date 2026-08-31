@@ -1,24 +1,30 @@
-> This repository contains **only** `README.md` layout maps for `~/dev`. No source, backups, or secrets.
+# How I keep `~/dev` sorted
 
-# `~/dev`
+This is not an application. It is the map of **the main code directory on my machine**: `~/dev`.
 
-Software workspace. Six roots; two of them are compatibility names.
+That folder holds everything I build and keep: active git repos, clones of other people's work, frozen projects, notes, runbooks, dumps. It got messy. Finding a home for a new file was guesswork.
 
-| Path | Role | What belongs here |
-| --- | --- | --- |
-| `personal/` | Active repos you own (`mamahoos`) | Work in progress, with `.git` |
-| `work/` | Employer work | Kept separate from personal |
-| `vendor/` | Other people's clones | upstream ≠ mamahoos |
-| `archive/` | Frozen: dead projects + dumps | Not an active git workspace |
-| `desk/` | Live: knowledge + day-to-day ops | Secrets, runbooks, learning |
-| `configs` | symlink | `desk/config` |
-| `DevOps` | symlink | `desk/runbooks` |
+I split it into a few roots, put a short `README.md` in each, and use those files as the rule. **This repository is that map, shared.** The real trees — source, backups, secrets — stay on disk. They are not in git.
 
-`archive/` is a real directory at this root. `configs` and `DevOps` must stay as symlinks.
+If you are reading this on GitHub, you are looking at the labels on empty shelves, not the shelves' contents.
+
+## Roots
+
+| Path | Role |
+| --- | --- |
+| `personal/` | My active repos (`mamahoos`) |
+| `work/` | Employer work, kept separate |
+| `vendor/` | Other people's clones |
+| `archive/` | Frozen projects and dumps |
+| `desk/` | Live notes, ops, learning |
+| `configs` | symlink → `desk/config` |
+| `DevOps` | symlink → `desk/runbooks` |
+
+`archive/` is a real directory. `configs` and `DevOps` must stay; old habits and scripts still use those names.
 
 Inside archive: `docker-images` → `artifacts/container-images/docker-images`
 
-## Where does this file go?
+## Where does a new file go?
 
 ```
 new file
@@ -42,3 +48,5 @@ Active git repos → `personal/` or `work/`.
 - kebab-case; no spaces in directory names
 - dated dumps: `YYYY-MM-DD-topic`
 - README files describe layout only, not project internals
+
+Deeper rules live next to each folder in this repo (`archive/`, `desk/`, …).
