@@ -14,7 +14,7 @@ Software workspace. Six roots; two of them are compatibility names.
 | `configs` | symlink | `desk/config` |
 | `DevOps` | symlink | `desk/runbooks` |
 
-`archive/` is a real directory (the old `archive` → `studio/archive` link is gone). `configs` and `DevOps` must stay.
+`archive/` is a real directory at this root. `configs` and `DevOps` must stay as symlinks.
 
 Inside archive: `docker-images` → `artifacts/container-images/docker-images`
 
