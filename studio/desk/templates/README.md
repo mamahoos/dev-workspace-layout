@@ -1,5 +1,5 @@
 # `templates/`
 
-اسکلت خنثی: compose نمونه، Dockerfile پایه، seed بات.
+Neutral skeletons: sample compose, base Dockerfile, bot seed.
 
-نام = هدف (`telegram-bot-seed.zip`، `compose.web-app.yaml`). پروژهٔ پرشده → `archive/projects/`.
+Name = purpose (`telegram-bot-seed.zip`, `compose.web-app.yaml`). Filled-in projects → `archive/projects/`.
