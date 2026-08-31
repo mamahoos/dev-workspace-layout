@@ -1,12 +1,12 @@
 # `knowledge/`
 
-یادگیری و سند، نه عملیات.
+Learning and documents, not operations.
 
-| پوشه | محتوی |
+| Directory | Contents |
 | --- | --- |
-| `topics/<موضوع>/` | یادداشت یا منبع یک موضوع (docker، microservices، …) |
-| `documents/` | PDF و متن بلند بدون موضوع ثابت |
-| `references/` | لینک، چک‌لیست، جدول کوتاه |
-| `talks/` | ارائه و اسلاید |
+| `topics/<topic>/` | notes or sources for one topic (docker, microservices, …) |
+| `documents/` | long PDFs/text with no stable topic yet |
+| `references/` | links, checklists, short tables |
+| `talks/` | presentations and slide text |
 
-how-to سرور → `../runbooks/`.
+Server how-to → `../runbooks/`.
