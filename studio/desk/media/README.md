@@ -1,3 +1,3 @@
 # `media/`
 
-اسکرین و تصویر. نام فایل را معنی‌دار کن؛ `Pasted image.png` را بعد از چسباندن عوض کن.
+Screenshots and images. Rename after paste; do not leave `Pasted image.png`.
