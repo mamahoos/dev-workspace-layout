@@ -1,3 +1,3 @@
 # `talks/`
 
-ارائه و متن سخنرانی. runbook نیست.
+Presentations and talk notes. Not a runbook.
