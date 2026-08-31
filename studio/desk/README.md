@@ -1,18 +1,18 @@
-# `desk/` — میزکار زنده
+# `desk/` — live workbench
 
-عملیات جدا از دانش:
+Ops and knowledge stay separate:
 
 ```
 desk/
-  config/      راز و یادداشت محیطی     ← ~/dev/configs
-  runbooks/    how-to عملیاتی          ← ~/dev/DevOps
-  deploy/      بستهٔ compose/env سرور
-  incidents/   پست‌مورتم
-  knowledge/   یادگیری، PDF، مرجع، ارائه
-  templates/   اسکلت تکرارشونده
-  inbox/       ورودی؛ خالی‌اش کن
-  llm/         متن خام برای مدل
-  media/       تصویر
+  config/      secrets and env notes      ← ~/dev/configs
+  runbooks/    operational how-to         ← ~/dev/DevOps
+  deploy/      compose/env server bundles
+  incidents/   postmortems
+  knowledge/   learning, PDFs, refs, talks
+  templates/   reusable skeletons
+  inbox/       intake; empty it
+  llm/         raw text for a model
+  media/       images
 ```
 
-`config/` را commit نکن. PDF درسی و اسلاید در `knowledge/` است نه در `runbooks/`.
+Do not commit `config/`. Course PDFs and slides belong in `knowledge/`, not `runbooks/`.
