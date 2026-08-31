@@ -1,5 +1,5 @@
 # `container-images/`
 
-خروجی `docker save`. مجموعه داخل `docker-images/`.
+`docker save` output. Collections live in `docker-images/`.
 
-symlink ریشهٔ archive: `archive/docker-images`.
+Archive-root symlink: `archive/docker-images`.
