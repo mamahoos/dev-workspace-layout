@@ -49,4 +49,4 @@ Active git repos → `personal/` or `work/`.
 - dated dumps: `YYYY-MM-DD-topic`
 - README files describe layout only, not project internals
 
-Deeper rules live next to each folder in this repo (`archive/`, `desk/`, …).
+`personal/`, `vendor/`, and `work/` are empty here on purpose. `archive/` and `desk/` have the layout notes. The real trees stay on disk.
