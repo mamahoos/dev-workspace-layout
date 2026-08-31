@@ -1,0 +1,6 @@
+# This repository is documentation-only.
+*
+!*/
+!.gitignore
+!README.md
+!**/README.md
