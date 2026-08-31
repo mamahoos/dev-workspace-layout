@@ -1,7 +1,7 @@
 # `deploy/`
 
-بستهٔ قابل کپی روی سرور: compose، env نمونه، config سرویس.
+Copyable server bundles: compose, sample env, service config.
 
-یک پوشه per سرویس: `graylog/`، `jitsi/`، `posthog/`، `coolify/`، …
+One directory per service: `graylog/`, `jitsi/`, `posthog/`, `coolify/`, …
 
-راز شرکت در `../config/` می‌ماند؛ اینجا قالب و بکاپ ساختار است نه پسورد.
+Org secrets stay in `../config/`. This tree is structure and templates, not passwords.
