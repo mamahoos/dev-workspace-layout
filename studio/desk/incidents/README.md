@@ -1,5 +1,5 @@
 # `incidents/`
 
-یک فایل per حادثه. حداقل: زمان، علائم، اقدام، نتیجه، پیشگیری.
+One file per incident. Minimum: time, symptoms, actions, outcome, prevention.
 
-نام پیشنهادی: `YYYY-MM-DD-سرویس-کوتاه.md`
+Suggested name: `YYYY-MM-DD-service-short.md`
